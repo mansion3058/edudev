@@ -1,0 +1,634 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="icon" href="icon_path" type="image/icon type"> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- End Bootsrtap Link -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Heebo|Quicksand|Slabo+27px&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <!-- End  -->
+    <style>
+      a,a:hover{
+        text-decoration: none;
+        color: currentColor;
+        text-underline-position: none;
+      }
+      body{
+        font-family: "Roboto";
+        padding: 0;
+        margin: 0;
+      }
+      ul{
+        padding: 0;
+        list-style: none;
+      }
+      .li {
+          padding-left: 1em; 
+          text-indent: -.7em;
+        }
+      .li::before {
+        content: "• ";
+        color: #4285f4;
+      }
+      .nava{
+        font-size: 32px;
+      }
+      .im{
+        margin-right: 10px;
+      }
+      .ch{
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .ch:hover{
+        border: none;
+      }
+      .ihs1,.ihs2,.ihs3,.ihs4{
+        color: black;
+      }
+      .ihs1:hover{
+        border-radius: 50%;
+        box-shadow: 1px 1px 4px 1px #4285f4;
+        color: #4285f4;
+       
+      }
+      .ihs2:hover{
+        border-radius: 50%;
+        box-shadow: 1px 1px 4px 1px #fbbc04;
+        color: #fbbc04;
+       
+      }
+      .ihs3:hover{
+        border-radius: 50%;
+        box-shadow: 1px 1px 4px 1px #ea4335;
+        color: #ea4335;
+       
+      }
+      .ihs4:hover{
+       color: #34a853;
+       
+      }
+      .hd{
+        font-weight: 500;
+        font-size: 20px;
+        color: #202124;
+      }
+      .cf1:hover{
+        box-shadow: 1px 1px 4px 1px #4285f4;
+        border-radius: 12px;
+        border-color: #4285f4
+      }
+      .ulh{
+        font-size: 14px;
+        font-family:Quicksand;
+        font-weight: 600;
+      }
+      .wc{
+        margin-top: 45px;
+        border-bottom: none;
+        border-radius: 10px 10px 0px 0px;
+        padding-top: 18px;
+      }
+      .wp{
+        width: 100%;
+        border:1px solid #dfdfdf;
+        padding: 15px 17px 20px 17px;
+        
+      }
+      .c1:hover{
+        border-color: #34a853;
+        box-shadow: 1px 1px 4px 1px rgba(52,168,83,0.2);
+
+      }
+      .c2:hover{
+        border-color: #4285f4;
+        box-shadow: 1px 1px 4px 1px rgba(66,133,244,0.2);
+
+      }
+      .c3:hover{
+        border-color: #fbbc04;
+        box-shadow: 1px 1px 4px 1px rgba(251,188,4,0.2);
+
+      }
+      .ca{
+        box-shadow: 1px 1px 4px 1px rgba(244,0,16,0.7);
+
+      }
+      .ca:hover{
+        border: 1px solid #ea4335;
+      }
+      .rsc{
+        border-radius: 12px 12px 0px 0px;
+
+      }
+      .fic::before{
+        content: "| ";
+        margin-right: 5px;
+        color: grey;
+      }
+      *:focus{
+        outline: none;
+      }
+
+    </style>
+    <title>Edu-Dev</title>
+  </head>
+<body>
+   <nav class="sticky-top">
+    <!-- Starting of the Navigation Bar -->
+    <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-white p-2">
+      <!-- hIDDEN naV cONTENT -->
+      <!-- cARD 1 -->
+          <div class="card ch" style="width: 18rem;">
+        <div class="card-body">
+            <div class="d-flex bd-highlight">
+          <div class="p-0 flex-shrink-1 bd-highlight">
+            <span class="material-icons nava im">
+              face 
+              </span>
+          </div>
+          <div class="p-0 w-100 bd-highlight">
+              <a href="#mfs">
+            <button type="button" class="btn btn-primary">
+            Message for Students
+          <span class="badge badge-light">4</span>
+                    </button></a>
+          </div>
+            </div>
+      </div>
+        </div>
+        <!-- eND CARD1 -->
+        <!-- Card 2 -->
+          <div class="card ch" style="width: 18rem;">
+        <div class="card-body">
+            <div class="d-flex bd-highlight">
+          <div class="p-0 flex-shrink-1 bd-highlight">
+            <span class="material-icons nava im">
+              group 
+              </span>
+          </div>
+          <div class="p-0 w-100 bd-highlight">
+            <a href="#mft">
+            <button type="button"  class="btn btn-warning p-2">
+            Message for Teachers
+          <span class="badge badge-light">4</span>
+                    </button></a>
+          </div>
+            </div>
+      </div>
+        </div>
+          <!-- End of Card2 -->
+            <!-- Card3 -->
+          <div class="card ch" style="width: 18rem;">
+        <div class="card-body">
+            <div class="d-flex bd-highlight">
+          <div class="p-0 flex-shrink-1 bd-highlight">
+            <span class="material-icons nava im">
+              notifications_active 
+              </span>
+          </div>
+          <div class="p-0 w-100 bd-highlight">
+            <a href="#onf">
+            <button type="button" class="btn btn-danger ">
+            Other Notifications
+          <span class="badge badge-light">4</span>
+                    </button></a>
+          </div>
+            </div>
+      </div>
+        </div>
+          <!-- End of Card3 -->
+          <!-- New Small Card -->
+          <div class="card ch " style="width: 4.7rem;">
+        <div class="card-body">
+          <a href="#">
+            <span class="material-icons nava im ihs1">
+              power_settings_new 
+              </span></a>
+
+      </div>
+        </div>
+        <!-- End of New Small Card -->
+    <!-- New Small Card -->
+              <div class="card ch" style="width: 4.7rem;">
+            <div class="card-body"><a href="help.html">
+                <span class="material-icons-outlined nava im ihs3">
+                  report 
+                  </span></a>
+          </div>
+            </div>
+            <!-- End of New Small Card -->
+    <!-- New Small Card -->
+              <div class="card ch" style="width: 4.7rem;">
+            <div class="card-body"><a href="#">
+                <span class="material-icons-outlined nava im ihs4">
+                  thumb_up
+                  </span></a>
+          </div>
+            </div>
+            <!-- End of New Small Card -->
+            <!-- New Small Card -->
+              <div class="card ch" style="width: 4.7rem;">
+            <div class="card-body">
+              <a href="">
+                <span class="material-icons nava im ihs2">
+                  refresh 
+                  </span></a>
+          </div>
+            </div>
+            <!-- End of New Small Card -->
+    </div>
+  </div>          
+  <nav class="navbar sticky-top w-100 navbar-white bg-white p-3 mb-4 bg-white rounded " style="box-shadow: 1px 1px 2px 0px #98999b;">
+    <button class="navbar-toggler d-none d-lg-block d-xl-block" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" id="t1" data-toggle="tooltip" data-placement="right" title="Quick Review">
+          <span class="material-icons nava">apps</span>
+    </button>
+    <!-- WEB NAV TITLE -->
+    <span style="font-size: 24px;font-family: Quicksand;font-weight: 600;" class="d-none d-lg-block d-xl-block">Edu Dev
+      <span style="font-size: 20px;font-weight: normal;font-family: Roboto;">a learning platform of SHCSD</span>
+    </span>
+
+    <!-- Mobile View -->
+    <span style="font-size: 24px;font-family: Quicksand;font-weight: 600;" class="d-sm-block d-lg-none">Edu Dev
+    </span>
+    <!-- End of Mobile View -->
+    <!-- End -->
+    <div class="d-flex bd-highlight ">
+  <div class="mr-auto bd-highlight" id="t2"  data-toggle="tooltip" data-placement="left" title="Want help ?">
+    <a href="help.html">
+    <span class="material-icons nava im ihs2" style="box-shadow: none;">
+      help_outline 
+      </span></a>
+  </div>
+  <div class="bd-highlight" id="t3"  data-toggle="tooltip" data-placement="bottom" title="Login">
+     <a href="login.html">
+    <span class="material-icons nava im ihs1" style="box-shadow: none;">
+      account_circle 
+      </span></a>
+  </div>
+      </div>
+  </nav>
+</div> 
+</nav> 
+<!-- Ending OF the NAv BAr -->
+<div class="container mx-auto">
+<div class="row">
+    <div class="col">
+      <!-- TOP HEADING -->
+      <div class="hd ml-1">
+        Headlines
+      </div>
+      <!-- END OF TOP HEADING -->
+      <!-- START oF THE STATIC CARD Headlines-->
+          <div class="card cf1 w-100 mt-3" style="border-radius: 12px;">
+            <a href="login.html">
+      <div class="card-body " style="padding: 14px; ">
+        <div class="d-flex bd-highlight">
+          <div class="flex-grow-1 bd-highlight">
+            <p class="card-text" style="font-family: Quicksand;">
+          <span style="color: #4285f4;font-weight: 620;">Edu Dev Coverage : </span>
+        For having your Study Materials plus Edu-support move on
+        </p>
+          </div>
+          <div class="bd-highlight">
+            <span class="material-icons" style="color: #4285f4">
+             keyboard_arrow_right 
+              </span>
+          </div>
+        </div>
+
+     </div>
+   </a>
+  </div>
+<!-- END OF THE ISt STATIC CARD Healines -->
+<!-- Super Headings -->
+<div class="card w-100 mt-3"  style="border-radius: 12px 12px 0px 0px;border-bottom: none;">
+      <div class="card-body" style="padding: 16px 14px;padding-bottom: 0px; ">
+        <div class="d-flex bd-highlight">
+          <div class="flex-grow-1 bd-highlight">
+            <!-- Super Heading Starting -->
+            <h5 class="mb-0" >For having your Study Materials plus Edu-support move on Materials plus Edu-support move on
+            </h5>
+        <!-- End -->
+        <div class="text-muted "><small>What makes Today special</small></div>
+        <ul class="ulh" >
+          <!-- Sub Headings -->
+         <li class="mt-2 li" style="">  
+      For having your Study Materials plus Edu-support move on Materials plus Edu-support move on
+          <small class="text-muted ml-2" style="display: block;"><b>Content</b>: Students Panel</small>
+          </li> 
+          <!-- TEMPORARY PART  -->
+          <li class="mt-2 li">  
+      For having your Study Materials plus Edu-support move on Materials plus Edu-support move onort move on
+      <small class="text-muted ml-2" style="display: block;"><b>Content</b>: Students Panel</small>
+          </li>
+          <li class="mt-2 li">  
+      For having your Study Materials plus Edu-support move on Mater
+      <small class="text-muted ml-2" style="display: block;"><b>Content</b>: Teachers Panel</small>
+          </li>
+          <li class="mt-2 li">  
+      For having your Study Materials plus Edu-supportaterials plus Edu-support move on Lorem ipsum dolor sit amet, consectetur adi
+      <small class="text-muted ml-2" style="display: block;"><b>Content</b>: Teachers Panel</small>
+          </li>
+          <!-- End -->
+         </ul>
+          </div>
+          <div class="bd-highlight">
+            <!-- Image Area -->
+             <img src="https://carleton.ca/cuol/wp-content/uploads/study.jpg"style="width: 110px;height: 90px;border-radius: 12px;">
+             <!-- End -->
+            </div>
+        </div>
+
+     </div>
+  </div>
+  <!-- Super heading bottom links -->
+  <div class="card w-100 p-2"  id="onf" style="border-top:none;border-radius: 0px 0px 10px 10px; padding-bottom: 15px;">
+    <small class="text-muted" style="text-align: right;">
+       8:30:25 | 07/04/20 
+  </small>
+      </div>
+      <!-- Ending -->
+
+      <!-- Ending of the Super Heading -->
+
+<!-- Heading 1 -->
+  <div class="card c1 w-100 mt-3" id="onf" style="border-radius: 12px;">
+    <div class="card-body" style="padding: 16px 14px; ">
+        <div class="d-flex bd-highlight">
+          <div class="flex-grow-1 bd-highlight">
+            <!-- Heading 1 Title -->
+            <h5 class="mb-0">Study Materials plusplus Edu-support move on Materials plus Edu-support move on
+            </h5>
+            <div class="text-muted"><small> 8:30:25 | 07/04/20 </small></div>
+            <!-- End -->
+            <!-- Here the condition if point = 1 than-->
+            <p class="mt-2" style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <!-- Else it will be shown in points with ul -->
+            <!-- End -->
+          </div>
+          <div class="bd-highlight">
+            <!-- Image Area -->
+             <img src="https://carleton.ca/cuol/wp-content/uploads/study.jpg"style="width: 110px;height: 90px;border-radius: 12px;">
+             <!-- End -->
+            </div>
+        </div>
+
+     </div>
+  </div>
+<!-- End of the Heading 1 -->
+<!-- Alert Heading -->
+<div class="card ca w-100 mt-3" style="border-radius: 12px;">
+    <div class="card-body" style="padding: 16px 14px; ">
+        <div class="d-flex bd-highlight">
+          <div class="flex-grow-1 bd-highlight">
+            <!-- Heading 1 Title -->
+            <h5 class="mb-0"> Alert Study Materials plusplus Edu-support move on Materials plus Edu-support move on
+            </h5>
+            <div class="text-muted"><small> 8:30:25 | 07/04/20 </small></div>
+            <!-- End -->
+            <!-- Here the condition if point = 1 than-->
+            <p class="mt-2" style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <!-- Else it will be shown in points with ul -->
+            <!-- End -->
+          </div>
+          
+        </div>
+
+     </div>
+  </div>
+  <!-- End -->
+
+<!-- Student's Panel Starting -->
+    <div class="hd ml-1 " id="mfs" style="margin-top: 3pc;">
+        For Students
+      </div>
+      <!-- First Heading -->
+      <div class="card c2 w-100 mt-3" style="border-radius: 12px;">
+    <div class="card-body" style="padding: 16px 14px; ">
+        <div class="d-flex bd-highlight">
+          <div class="flex-grow-1 bd-highlight">
+            <!-- Heading 1 Title -->
+            <h5 class="mb-0">Study Materials plusplus Edu-support move on Mate on
+            </h5>
+            <div class="text-muted"><small> 8:30:25 | 07/04/20 </small></div>
+            <!-- End -->
+            <!-- Here the condition if point = 1 than-->
+            <p class="mt-2" style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <!-- Else it will be shown in points with ul -->
+            <!-- End -->
+          </div>
+          <div class="bd-highlight">
+            <!-- Image Area -->
+             <img src="https://carleton.ca/cuol/wp-content/uploads/study.jpg"style="width: 110px;height: 90px;border-radius: 12px;">
+             <!-- End -->
+            </div>
+        </div>
+
+     </div>
+  </div>
+  <!-- Ending of the First Heading  -->
+
+  <!-- Starting of the 2nd Heading -->
+  <div class="card c2 w-100 mt-3" style="border-radius: 12px;">
+    <div class="card-body" style="padding: 16px 14px; ">
+        <div class="d-flex bd-highlight">
+          <div class="flex-grow-1 bd-highlight">
+            <!-- Heading 1 Title -->
+            <h5 class="mb-0">Study Materials pl Study Materials plusplus Edu-support Study Materials
+            </h5>
+            <div class="text-muted"><small> 8:30:25 | 07/04/20 </small></div>
+            <!-- End -->
+            <!-- Here the condition if point = 1 than-->
+            <p class="mt-2" style="font-size: 14px;">Lorem ipsum dolor sit amet, r adipisicing elit, sed do eiusmod tempor incididunt amet, r adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <!-- Else it will be shown in points with ul -->
+            <!-- End -->
+          </div>
+        
+        </div>
+
+     </div>
+  </div>
+  <!-- Ending of the 2nd Heading -->
+
+<!-- Ending of the Student PAnel -->
+
+  <!-- Starting of the Teacher's Panel -->
+   <div class="hd ml-1" id="mft" style="margin-top: 3pc">
+        For Teachers
+      </div>
+      <!-- Starting of the Teacher's Headings -->
+      <div class="card c3 w-100 mt-3" style="border-radius: 12px;">
+    <div class="card-body" style="padding: 16px 14px; ">
+        <div class="d-flex bd-highlight">
+          <div class="flex-grow-1 bd-highlight">
+            <!-- Heading 1 Title -->
+            <h5 class="mb-0">Study Materials pl Study Materials plusplus Edu-support Study Materials
+            </h5>
+            <div class="text-muted"><small> 8:30:25 | 07/04/20 </small></div>
+            <!-- End -->
+            <!-- Here the condition if point = 1 than-->
+            <p class="mt-2" style="font-size: 14px;">Lorem ipsum dolor sit amet, r adipisicing elit, sed do eiusmod tempor incididunt amet, r adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <!-- Else it will be shown in points with ul -->
+            <!-- End -->
+          </div>
+        
+        </div>
+
+     </div>
+  </div>
+<!-- Ending of the Teacher's panel -->
+</div>
+    <!-- Fake Static/Hideen Card for Space -->
+    <!-- Desktop -->
+    <div class="col-md-auto d-none d-lg-block d-xl-block" style="width: 1pc;" ></div>
+    <!-- End -->
+    <!-- Start of the Right HAnd  Side CArd -->
+    <div class="col col-lg-4 d-none d-lg-block d-xl-block" style="border: 0px solid;max-width: 95%;">
+      <!-- Weather Report -->
+      <div class="card wc  p-3">Edu Dev Weather Report
+      </div>  
+      <div class="wp ml-0">
+      <a class="weatherwidget-io" href="https://forecast7.com/en/31d3375d58/jalandhar/" data-font="Roboto" data-days="3" data-theme="pure" data-accent="rgba(194, 195, 196, 0.09)" data-highcolor="#ea4335" data-lowcolor="#4285f4" data-suncolor="#fbbc04" data-raincolor="#4285f4" data-snowcolor="#34a853">Getting your Weather</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+  </div>
+  <div class="card w-100 p-3" style="border-top:none;border-radius: 0px 0px 10px 10px">
+    <small class="text-muted" style="position: relative;text-align: right;">
+     <a href="https://forecast7.com/en/31d3375d58/jalandhar/">For more visit</a>
+  </small>
+      </div> 
+    <!-- Ending of the Weather Report-->
+    <!-- Feedback -->
+    <div class="card mt-4" style="border-radius: 12px;">
+      <div class="card-header rsc" style="text-align: center;">
+        Knowing facts : What is Edu Dev 
+      </div>
+      <div class="card-body">
+
+        <p class="card-text">
+          Edu Dev is a open source learning platform of Seth Hukam Chand SD Public SR. SEC Public School located at Jal. which helps in spreading learning information with students.
+        </p>
+        
+      </div>
+    </div>
+    <!-- Ending -->
+  <!-- form subscription -->
+      <form class="text-center border border-grey p-5 mt-4" action="#!" style="border-radius: 14px;">
+
+    <p class="h4 mb-4">Subscribe</p>
+
+    <p>Join our mailing list. We write rarely, but only the best content.</p>
+
+    <p style="font-family: Quicksand;">
+        Happy to Serve You
+    </p>
+
+    <!-- Name -->
+    <input type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Name" required>
+
+    <!-- Email -->
+    <input type="email" id="invalidCheck29" class="form-control mb-4" placeholder="E-mail" required>
+
+    <!-- Sign in button -->
+    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+
+      </form>
+<!-- form subscription -->
+
+    <!-- Starting of the Feature Post -->
+      <div class="card W-100 rsc mt-4">
+        <div class="card-header rsc">
+          Upcoming Events
+        </div>
+        <ul class="list-group list-group-flush" style="font-size: 14px;">
+          <li class="list-group-item">15 Mar 2020 | Children's Day | Celeberation Party</li>
+          <li class="list-group-item">22 Mar 2020 | Unit II Examination Starting Date</li>
+          <li class="list-group-item">05 Apl 2020 | Children's Day | Celeberation Party</li>
+          
+        </ul>
+          </div>
+          <div class="card w-100 p-2" style="border-top:none;border-radius: 0px 0px 12px 12px">
+          <small class="text-muted" style="position: relative;text-align: right;">
+          Last updated : 02:28:35 | 18/05/20
+             </small>
+            </div>
+            <!-- Ending of the Feature Post -->
+           
+  </div>
+    <!-- End of the Right Hand Side Card -->
+</div>
+  <!-- Mobile Subscription -->
+      <div class="card mt-5 d-sm-block d-lg-none mx-auto" style="width: 90%;border-radius: 22px;">
+        <form action="#">
+      <div class="d-flex bd-highlight">
+        <div class=" p-2 bd-highlight">
+        <span class="material-icons mt-1 ml-1 mr-2" style="font-size: 28px;color: #4285f4;">
+            person_add
+            </span>
+        </div>
+      
+      <div class="pt-3 flex-grow-1 bd-highlight">
+         <input type="email" class="ml-0" placeholder="Enter Email to Subscribe our page" required  style="border:none;padding-left: 0px; padding-right: 0px;width: 100%;font-size: 18px;line-height: 3px;">
+      </div>
+      <div class=" pt-2 pr-2 bd-highlight">
+        <button type="submit" style="background-color: white;border:none;">
+           <span class="material-icons p-1 pl-0" style="font-size: 28px;color: ">
+          send
+            </span>
+          </button>
+      </div>
+    </form>
+    </div>
+      </div>
+    <!-- End -->
+</div>
+
+<!-- Footer -->
+ <div class="modal-footer" style="border-bottom: solid 1px #DEE2E6; margin-top: 8%;padding: 6px;">
+  <span class="fic"><i class="fab fa-facebook-f"></i></span>
+  <span class="fic"><i class="fab fa-twitter "></i></span>
+  <span class="fic"><i class="fab fa-youtube"></i></span>
+  <span class="fic"><i class="fab fa-linkedin-in"></i></span>
+  
+  </div>
+<footer class="page-footer font-small  mb-1 text-muted" style="background-color: #F7F7F7">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 d-none d-lg-block d-xl-block">© 2020 Copyright : Edu Dev | Bulit under supervision of Mr. Shah & Company
+  </div>
+  
+  <div class="footer-copyright text-center py-3 d-sm-block d-lg-none">© 2020 Copyright : Edu Dev | Mr. Shah
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script>
+        $('#navbarToggleExternalContent').click(function(){
+            $("#navbarToggleExternalContent").collapse('hide');
+        });
+        $('#t1').tooltip('enable');
+        $('#t2').tooltip('enable');
+        $('#t3').tooltip('enable');
+      
+        
+    </script>
+  </body>
+</html>     
